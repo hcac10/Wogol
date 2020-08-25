@@ -1,0 +1,6 @@
+framework module Pods_WogolTests {
+  umbrella header "Pods-WogolTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

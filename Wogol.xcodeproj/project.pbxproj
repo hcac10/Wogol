@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4698703924D7E4E40073CF2B /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698703824D7E4E40073CF2B /* AddGoalViewController.swift */; };
+		4698703B24D871EB0073CF2B /* AddTask+HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698703A24D871EB0073CF2B /* AddTask+HabitViewController.swift */; };
+		46B1061B24CE022700DE4110 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1061924CE022700DE4110 /* Constants.swift */; };
+		46B1061C24CE022700DE4110 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1061A24CE022700DE4110 /* Utilities.swift */; };
+		46B1061E24CE118200DE4110 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46B1061D24CE118200DE4110 /* GoogleService-Info.plist */; };
+		46D37A5624CDE0FC006E4CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A5524CDE0FC006E4CA6 /* AppDelegate.swift */; };
+		46D37A5824CDE0FC006E4CA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A5724CDE0FC006E4CA6 /* SceneDelegate.swift */; };
+		46D37A5A24CDE0FC006E4CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A5924CDE0FC006E4CA6 /* ViewController.swift */; };
+		46D37A5D24CDE0FC006E4CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D37A5B24CDE0FC006E4CA6 /* Main.storyboard */; };
+		46D37A5F24CDE103006E4CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D37A5E24CDE103006E4CA6 /* Assets.xcassets */; };
+		46D37A6224CDE103006E4CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D37A6024CDE103006E4CA6 /* LaunchScreen.storyboard */; };
+		46D37A6D24CDE103006E4CA6 /* WogolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A6C24CDE103006E4CA6 /* WogolTests.swift */; };
+		46D37A7824CDE103006E4CA6 /* WogolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A7724CDE103006E4CA6 /* WogolUITests.swift */; };
+		46D37A8624CDE25D006E4CA6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A8524CDE25D006E4CA6 /* SignUpViewController.swift */; };
+		46D37A8824CDE27C006E4CA6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A8724CDE27C006E4CA6 /* LoginViewController.swift */; };
+		46D37A8A24CDE294006E4CA6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A8924CDE294006E4CA6 /* HomeViewController.swift */; };
+		4983911BBEE82A641AE5D2AC /* Pods_WogolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0CBA1E8FA3A9CF704FC28F /* Pods_WogolTests.framework */; };
+		84911923A582CE2B14DB412A /* Pods_Wogol_WogolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9676433B6040FCB322D8D73A /* Pods_Wogol_WogolUITests.framework */; };
+		E8EE8C78D810F14E9521D613 /* Pods_Wogol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3398AFCFA7A3C9AC0D0886 /* Pods_Wogol.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D37A6924CDE103006E4CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D37A4A24CDE0FC006E4CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D37A5124CDE0FC006E4CA6;
+			remoteInfo = Wogol;
+		};
+		46D37A7424CDE103006E4CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D37A4A24CDE0FC006E4CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D37A5124CDE0FC006E4CA6;
+			remoteInfo = Wogol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0948E339EB5E048874F5A061 /* Pods-WogolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WogolTests.debug.xcconfig"; path = "Target Support Files/Pods-WogolTests/Pods-WogolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0CBA1E8FA3A9CF704FC28F /* Pods_WogolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WogolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E85642218D1ACFFE53BD87 /* Pods-WogolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WogolTests.release.xcconfig"; path = "Target Support Files/Pods-WogolTests/Pods-WogolTests.release.xcconfig"; sourceTree = "<group>"; };
+		4698703824D7E4E40073CF2B /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		4698703A24D871EB0073CF2B /* AddTask+HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddTask+HabitViewController.swift"; sourceTree = "<group>"; };
+		46B1061924CE022700DE4110 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46B1061A24CE022700DE4110 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		46B1061D24CE118200DE4110 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46D37A5224CDE0FC006E4CA6 /* Wogol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wogol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D37A5524CDE0FC006E4CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D37A5724CDE0FC006E4CA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46D37A5924CDE0FC006E4CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D37A5C24CDE0FC006E4CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D37A5E24CDE103006E4CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D37A6124CDE103006E4CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D37A6324CDE103006E4CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D37A6824CDE103006E4CA6 /* WogolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WogolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D37A6C24CDE103006E4CA6 /* WogolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WogolTests.swift; sourceTree = "<group>"; };
+		46D37A6E24CDE103006E4CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D37A7324CDE103006E4CA6 /* WogolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WogolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D37A7724CDE103006E4CA6 /* WogolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WogolUITests.swift; sourceTree = "<group>"; };
+		46D37A7924CDE103006E4CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D37A8524CDE25D006E4CA6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		46D37A8724CDE27C006E4CA6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		46D37A8924CDE294006E4CA6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6E3143E6A44A3BE41E939825 /* Pods-Wogol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wogol.debug.xcconfig"; path = "Target Support Files/Pods-Wogol/Pods-Wogol.debug.xcconfig"; sourceTree = "<group>"; };
+		831EA7A1B48F637EBE567825 /* Pods-Wogol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wogol.release.xcconfig"; path = "Target Support Files/Pods-Wogol/Pods-Wogol.release.xcconfig"; sourceTree = "<group>"; };
+		9676433B6040FCB322D8D73A /* Pods_Wogol_WogolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wogol_WogolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A668284AF7986863B53ACB8A /* Pods-Wogol-WogolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wogol-WogolUITests.release.xcconfig"; path = "Target Support Files/Pods-Wogol-WogolUITests/Pods-Wogol-WogolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC3398AFCFA7A3C9AC0D0886 /* Pods_Wogol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wogol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A18118E2198DFF542BDF0D /* Pods-Wogol-WogolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wogol-WogolUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wogol-WogolUITests/Pods-Wogol-WogolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D37A4F24CDE0FC006E4CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EE8C78D810F14E9521D613 /* Pods_Wogol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D37A6524CDE103006E4CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4983911BBEE82A641AE5D2AC /* Pods_WogolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D37A7024CDE103006E4CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84911923A582CE2B14DB412A /* Pods_Wogol_WogolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B1061824CE022700DE4110 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46B1061924CE022700DE4110 /* Constants.swift */,
+				46B1061A24CE022700DE4110 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		46D37A4924CDE0FC006E4CA6 = {
+			isa = PBXGroup;
+			children = (
+				46D37A5424CDE0FC006E4CA6 /* Wogol */,
+				46D37A6B24CDE103006E4CA6 /* WogolTests */,
+				46D37A7624CDE103006E4CA6 /* WogolUITests */,
+				46D37A5324CDE0FC006E4CA6 /* Products */,
+				A1E427161017C2A3073D596A /* Pods */,
+				F85B7FFDDE7465185CBA0EDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46D37A5324CDE0FC006E4CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D37A5224CDE0FC006E4CA6 /* Wogol.app */,
+				46D37A6824CDE103006E4CA6 /* WogolTests.xctest */,
+				46D37A7324CDE103006E4CA6 /* WogolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D37A5424CDE0FC006E4CA6 /* Wogol */ = {
+			isa = PBXGroup;
+			children = (
+				46D37A5524CDE0FC006E4CA6 /* AppDelegate.swift */,
+				46D37A5724CDE0FC006E4CA6 /* SceneDelegate.swift */,
+				46B1061824CE022700DE4110 /* Helpers */,
+				46D37A8B24CDE3D2006E4CA6 /* ViewControllers */,
+				46D37A5B24CDE0FC006E4CA6 /* Main.storyboard */,
+				46D37A5E24CDE103006E4CA6 /* Assets.xcassets */,
+				46D37A6024CDE103006E4CA6 /* LaunchScreen.storyboard */,
+				46B1061D24CE118200DE4110 /* GoogleService-Info.plist */,
+				46D37A6324CDE103006E4CA6 /* Info.plist */,
+			);
+			path = Wogol;
+			sourceTree = "<group>";
+		};
+		46D37A6B24CDE103006E4CA6 /* WogolTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D37A6C24CDE103006E4CA6 /* WogolTests.swift */,
+				46D37A6E24CDE103006E4CA6 /* Info.plist */,
+			);
+			path = WogolTests;
+			sourceTree = "<group>";
+		};
+		46D37A7624CDE103006E4CA6 /* WogolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D37A7724CDE103006E4CA6 /* WogolUITests.swift */,
+				46D37A7924CDE103006E4CA6 /* Info.plist */,
+			);
+			path = WogolUITests;
+			sourceTree = "<group>";
+		};
+		46D37A8B24CDE3D2006E4CA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46D37A5924CDE0FC006E4CA6 /* ViewController.swift */,
+				46D37A8524CDE25D006E4CA6 /* SignUpViewController.swift */,
+				46D37A8724CDE27C006E4CA6 /* LoginViewController.swift */,
+				46D37A8924CDE294006E4CA6 /* HomeViewController.swift */,
+				4698703824D7E4E40073CF2B /* AddGoalViewController.swift */,
+				4698703A24D871EB0073CF2B /* AddTask+HabitViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1E427161017C2A3073D596A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E3143E6A44A3BE41E939825 /* Pods-Wogol.debug.xcconfig */,
+				831EA7A1B48F637EBE567825 /* Pods-Wogol.release.xcconfig */,
+				B7A18118E2198DFF542BDF0D /* Pods-Wogol-WogolUITests.debug.xcconfig */,
+				A668284AF7986863B53ACB8A /* Pods-Wogol-WogolUITests.release.xcconfig */,
+				0948E339EB5E048874F5A061 /* Pods-WogolTests.debug.xcconfig */,
+				40E85642218D1ACFFE53BD87 /* Pods-WogolTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F85B7FFDDE7465185CBA0EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3398AFCFA7A3C9AC0D0886 /* Pods_Wogol.framework */,
+				9676433B6040FCB322D8D73A /* Pods_Wogol_WogolUITests.framework */,
+				2D0CBA1E8FA3A9CF704FC28F /* Pods_WogolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D37A5124CDE0FC006E4CA6 /* Wogol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D37A7C24CDE103006E4CA6 /* Build configuration list for PBXNativeTarget "Wogol" */;
+			buildPhases = (
+				E06709AAB6B30D55B42C80E1 /* [CP] Check Pods Manifest.lock */,
+				46D37A4E24CDE0FC006E4CA6 /* Sources */,
+				46D37A4F24CDE0FC006E4CA6 /* Frameworks */,
+				46D37A5024CDE0FC006E4CA6 /* Resources */,
+				BD7BE97CC506657661AE9B4D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wogol;
+			productName = Wogol;
+			productReference = 46D37A5224CDE0FC006E4CA6 /* Wogol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D37A6724CDE103006E4CA6 /* WogolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D37A7F24CDE103006E4CA6 /* Build configuration list for PBXNativeTarget "WogolTests" */;
+			buildPhases = (
+				452B88B3C0432425C1EDAC92 /* [CP] Check Pods Manifest.lock */,
+				46D37A6424CDE103006E4CA6 /* Sources */,
+				46D37A6524CDE103006E4CA6 /* Frameworks */,
+				46D37A6624CDE103006E4CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D37A6A24CDE103006E4CA6 /* PBXTargetDependency */,
+			);
+			name = WogolTests;
+			productName = WogolTests;
+			productReference = 46D37A6824CDE103006E4CA6 /* WogolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D37A7224CDE103006E4CA6 /* WogolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D37A8224CDE103006E4CA6 /* Build configuration list for PBXNativeTarget "WogolUITests" */;
+			buildPhases = (
+				F5DA0CE8866755A045427233 /* [CP] Check Pods Manifest.lock */,
+				46D37A6F24CDE103006E4CA6 /* Sources */,
+				46D37A7024CDE103006E4CA6 /* Frameworks */,
+				46D37A7124CDE103006E4CA6 /* Resources */,
+				7BD590AC2EBA29CB862281C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D37A7524CDE103006E4CA6 /* PBXTargetDependency */,
+			);
+			name = WogolUITests;
+			productName = WogolUITests;
+			productReference = 46D37A7324CDE103006E4CA6 /* WogolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D37A4A24CDE0FC006E4CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = HernanPeter;
+				TargetAttributes = {
+					46D37A5124CDE0FC006E4CA6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					46D37A6724CDE103006E4CA6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 46D37A5124CDE0FC006E4CA6;
+					};
+					46D37A7224CDE103006E4CA6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 46D37A5124CDE0FC006E4CA6;
+					};
+				};
+			};
+			buildConfigurationList = 46D37A4D24CDE0FC006E4CA6 /* Build configuration list for PBXProject "Wogol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D37A4924CDE0FC006E4CA6;
+			productRefGroup = 46D37A5324CDE0FC006E4CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D37A5124CDE0FC006E4CA6 /* Wogol */,
+				46D37A6724CDE103006E4CA6 /* WogolTests */,
+				46D37A7224CDE103006E4CA6 /* WogolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D37A5024CDE0FC006E4CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D37A6224CDE103006E4CA6 /* LaunchScreen.storyboard in Resources */,
+				46B1061E24CE118200DE4110 /* GoogleService-Info.plist in Resources */,
+				46D37A5F24CDE103006E4CA6 /* Assets.xcassets in Resources */,
+				46D37A5D24CDE0FC006E4CA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D37A6624CDE103006E4CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D37A7124CDE103006E4CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452B88B3C0432425C1EDAC92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WogolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD590AC2EBA29CB862281C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wogol-WogolUITests/Pods-Wogol-WogolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wogol-WogolUITests/Pods-Wogol-WogolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wogol-WogolUITests/Pods-Wogol-WogolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7BE97CC506657661AE9B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wogol/Pods-Wogol-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wogol/Pods-Wogol-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wogol/Pods-Wogol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06709AAB6B30D55B42C80E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wogol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DA0CE8866755A045427233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wogol-WogolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D37A4E24CDE0FC006E4CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698703B24D871EB0073CF2B /* AddTask+HabitViewController.swift in Sources */,
+				4698703924D7E4E40073CF2B /* AddGoalViewController.swift in Sources */,
+				46D37A5A24CDE0FC006E4CA6 /* ViewController.swift in Sources */,
+				46D37A5624CDE0FC006E4CA6 /* AppDelegate.swift in Sources */,
+				46D37A8624CDE25D006E4CA6 /* SignUpViewController.swift in Sources */,
+				46D37A8824CDE27C006E4CA6 /* LoginViewController.swift in Sources */,
+				46B1061B24CE022700DE4110 /* Constants.swift in Sources */,
+				46D37A5824CDE0FC006E4CA6 /* SceneDelegate.swift in Sources */,
+				46B1061C24CE022700DE4110 /* Utilities.swift in Sources */,
+				46D37A8A24CDE294006E4CA6 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D37A6424CDE103006E4CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D37A6D24CDE103006E4CA6 /* WogolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D37A6F24CDE103006E4CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D37A7824CDE103006E4CA6 /* WogolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D37A6A24CDE103006E4CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D37A5124CDE0FC006E4CA6 /* Wogol */;
+			targetProxy = 46D37A6924CDE103006E4CA6 /* PBXContainerItemProxy */;
+		};
+		46D37A7524CDE103006E4CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D37A5124CDE0FC006E4CA6 /* Wogol */;
+			targetProxy = 46D37A7424CDE103006E4CA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D37A5B24CDE0FC006E4CA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D37A5C24CDE0FC006E4CA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46D37A6024CDE103006E4CA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D37A6124CDE103006E4CA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D37A7A24CDE103006E4CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D37A7B24CDE103006E4CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D37A7D24CDE103006E4CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3143E6A44A3BE41E939825 /* Pods-Wogol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wogol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HePe.Wogol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D37A7E24CDE103006E4CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831EA7A1B48F637EBE567825 /* Pods-Wogol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wogol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HePe.Wogol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46D37A8024CDE103006E4CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0948E339EB5E048874F5A061 /* Pods-WogolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WogolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HePe.WogolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wogol.app/Wogol";
+			};
+			name = Debug;
+		};
+		46D37A8124CDE103006E4CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E85642218D1ACFFE53BD87 /* Pods-WogolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WogolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HePe.WogolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wogol.app/Wogol";
+			};
+			name = Release;
+		};
+		46D37A8324CDE103006E4CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A18118E2198DFF542BDF0D /* Pods-Wogol-WogolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WogolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HePe.WogolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wogol;
+			};
+			name = Debug;
+		};
+		46D37A8424CDE103006E4CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A668284AF7986863B53ACB8A /* Pods-Wogol-WogolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WogolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HePe.WogolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wogol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D37A4D24CDE0FC006E4CA6 /* Build configuration list for PBXProject "Wogol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D37A7A24CDE103006E4CA6 /* Debug */,
+				46D37A7B24CDE103006E4CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D37A7C24CDE103006E4CA6 /* Build configuration list for PBXNativeTarget "Wogol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D37A7D24CDE103006E4CA6 /* Debug */,
+				46D37A7E24CDE103006E4CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D37A7F24CDE103006E4CA6 /* Build configuration list for PBXNativeTarget "WogolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D37A8024CDE103006E4CA6 /* Debug */,
+				46D37A8124CDE103006E4CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D37A8224CDE103006E4CA6 /* Build configuration list for PBXNativeTarget "WogolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D37A8324CDE103006E4CA6 /* Debug */,
+				46D37A8424CDE103006E4CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D37A4A24CDE0FC006E4CA6 /* Project object */;
+}
