@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4698703924D7E4E40073CF2B /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698703824D7E4E40073CF2B /* AddGoalViewController.swift */; };
-		4698703B24D871EB0073CF2B /* AddTask+HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698703A24D871EB0073CF2B /* AddTask+HabitViewController.swift */; };
 		46B1061B24CE022700DE4110 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1061924CE022700DE4110 /* Constants.swift */; };
 		46B1061C24CE022700DE4110 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1061A24CE022700DE4110 /* Utilities.swift */; };
 		46B1061E24CE118200DE4110 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46B1061D24CE118200DE4110 /* GoogleService-Info.plist */; };
@@ -22,8 +20,12 @@
 		46D37A7824CDE103006E4CA6 /* WogolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A7724CDE103006E4CA6 /* WogolUITests.swift */; };
 		46D37A8624CDE25D006E4CA6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A8524CDE25D006E4CA6 /* SignUpViewController.swift */; };
 		46D37A8824CDE27C006E4CA6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A8724CDE27C006E4CA6 /* LoginViewController.swift */; };
-		46D37A8A24CDE294006E4CA6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D37A8924CDE294006E4CA6 /* HomeViewController.swift */; };
 		4983911BBEE82A641AE5D2AC /* Pods_WogolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0CBA1E8FA3A9CF704FC28F /* Pods_WogolTests.framework */; };
+		5CBC6621250254D3006A5DF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC6620250254D3006A5DF4 /* HomeViewController.swift */; };
+		5CBC66232502668E006A5DF4 /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC66222502668D006A5DF4 /* AddGoalViewController.swift */; };
+		5CBC662825026792006A5DF4 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC662725026791006A5DF4 /* Goal.swift */; };
+		5CBC662A25026D86006A5DF4 /* DocumentSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC662925026D86006A5DF4 /* DocumentSerializable.swift */; };
+		5CBC662C25079BB8006A5DF4 /* GoalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC662B25079BB8006A5DF4 /* GoalListViewController.swift */; };
 		84911923A582CE2B14DB412A /* Pods_Wogol_WogolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9676433B6040FCB322D8D73A /* Pods_Wogol_WogolUITests.framework */; };
 		E8EE8C78D810F14E9521D613 /* Pods_Wogol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3398AFCFA7A3C9AC0D0886 /* Pods_Wogol.framework */; };
 /* End PBXBuildFile section */
@@ -49,8 +51,6 @@
 		0948E339EB5E048874F5A061 /* Pods-WogolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WogolTests.debug.xcconfig"; path = "Target Support Files/Pods-WogolTests/Pods-WogolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D0CBA1E8FA3A9CF704FC28F /* Pods_WogolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WogolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E85642218D1ACFFE53BD87 /* Pods-WogolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WogolTests.release.xcconfig"; path = "Target Support Files/Pods-WogolTests/Pods-WogolTests.release.xcconfig"; sourceTree = "<group>"; };
-		4698703824D7E4E40073CF2B /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
-		4698703A24D871EB0073CF2B /* AddTask+HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddTask+HabitViewController.swift"; sourceTree = "<group>"; };
 		46B1061924CE022700DE4110 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		46B1061A24CE022700DE4110 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		46B1061D24CE118200DE4110 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -70,7 +70,11 @@
 		46D37A7924CDE103006E4CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D37A8524CDE25D006E4CA6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		46D37A8724CDE27C006E4CA6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		46D37A8924CDE294006E4CA6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5CBC6620250254D3006A5DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5CBC66222502668D006A5DF4 /* AddGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		5CBC662725026791006A5DF4 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		5CBC662925026D86006A5DF4 /* DocumentSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSerializable.swift; sourceTree = "<group>"; };
+		5CBC662B25079BB8006A5DF4 /* GoalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalListViewController.swift; sourceTree = "<group>"; };
 		6E3143E6A44A3BE41E939825 /* Pods-Wogol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wogol.debug.xcconfig"; path = "Target Support Files/Pods-Wogol/Pods-Wogol.debug.xcconfig"; sourceTree = "<group>"; };
 		831EA7A1B48F637EBE567825 /* Pods-Wogol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wogol.release.xcconfig"; path = "Target Support Files/Pods-Wogol/Pods-Wogol.release.xcconfig"; sourceTree = "<group>"; };
 		9676433B6040FCB322D8D73A /* Pods_Wogol_WogolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wogol_WogolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +147,7 @@
 			children = (
 				46D37A5524CDE0FC006E4CA6 /* AppDelegate.swift */,
 				46D37A5724CDE0FC006E4CA6 /* SceneDelegate.swift */,
+				5CBC662425026749006A5DF4 /* Models */,
 				46B1061824CE022700DE4110 /* Helpers */,
 				46D37A8B24CDE3D2006E4CA6 /* ViewControllers */,
 				46D37A5B24CDE0FC006E4CA6 /* Main.storyboard */,
@@ -177,12 +182,21 @@
 			children = (
 				46D37A5924CDE0FC006E4CA6 /* ViewController.swift */,
 				46D37A8524CDE25D006E4CA6 /* SignUpViewController.swift */,
+				5CBC6620250254D3006A5DF4 /* HomeViewController.swift */,
 				46D37A8724CDE27C006E4CA6 /* LoginViewController.swift */,
-				46D37A8924CDE294006E4CA6 /* HomeViewController.swift */,
-				4698703824D7E4E40073CF2B /* AddGoalViewController.swift */,
-				4698703A24D871EB0073CF2B /* AddTask+HabitViewController.swift */,
+				5CBC66222502668D006A5DF4 /* AddGoalViewController.swift */,
+				5CBC662B25079BB8006A5DF4 /* GoalListViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5CBC662425026749006A5DF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC662725026791006A5DF4 /* Goal.swift */,
+				5CBC662925026D86006A5DF4 /* DocumentSerializable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A1E427161017C2A3073D596A /* Pods */ = {
@@ -448,16 +462,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4698703B24D871EB0073CF2B /* AddTask+HabitViewController.swift in Sources */,
-				4698703924D7E4E40073CF2B /* AddGoalViewController.swift in Sources */,
+				5CBC66232502668E006A5DF4 /* AddGoalViewController.swift in Sources */,
 				46D37A5A24CDE0FC006E4CA6 /* ViewController.swift in Sources */,
 				46D37A5624CDE0FC006E4CA6 /* AppDelegate.swift in Sources */,
 				46D37A8624CDE25D006E4CA6 /* SignUpViewController.swift in Sources */,
+				5CBC6621250254D3006A5DF4 /* HomeViewController.swift in Sources */,
 				46D37A8824CDE27C006E4CA6 /* LoginViewController.swift in Sources */,
 				46B1061B24CE022700DE4110 /* Constants.swift in Sources */,
+				5CBC662A25026D86006A5DF4 /* DocumentSerializable.swift in Sources */,
 				46D37A5824CDE0FC006E4CA6 /* SceneDelegate.swift in Sources */,
+				5CBC662C25079BB8006A5DF4 /* GoalListViewController.swift in Sources */,
+				5CBC662825026792006A5DF4 /* Goal.swift in Sources */,
 				46B1061C24CE022700DE4110 /* Utilities.swift in Sources */,
-				46D37A8A24CDE294006E4CA6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
